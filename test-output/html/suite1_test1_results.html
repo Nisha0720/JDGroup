@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Test</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">JDGroup.AndroidTest.LoginTest<br>JDGroup.AndroidTest.ForgotPasswordTest<br></th>
+	    <th id="testClassNameId" hidden="true">LoginTest<br>ForgotPasswordTest<br></th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">Suite</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">C:\Users\nisha\OneDrive\Desktop\AndroidTest\testsuites\testng.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">testng.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:06:17</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>2</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="green">PASS</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+																
+				
+				
+												<tr>
+			<td class="time">1713526817171</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('2bbea9cc-4239-45ca-b0bd-aae5a11e886b','block');changeSingleIcon('span-2bbea9cc-4239-45ca-b0bd-aae5a11e886b');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>JDGroup.AndroidTest.ForgotPasswordTest</div>
+			<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-2bbea9cc-4239-45ca-b0bd-aae5a11e886b' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1713526817171</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Forgotpassword</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>70,494s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"test@123", "sacgusaguas", "Abc1234@ijklMno"</span><br>
+				<div class="stackTrace" id="2bbea9cc-4239-45ca-b0bd-aae5a11e886b" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1713526721822</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('45452d63-2990-464e-a5f5-10a48114d0bc','block');changeSingleIcon('span-45452d63-2990-464e-a5f5-10a48114d0bc');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>JDGroup.AndroidTest.ForgotPasswordTest</div>
+			<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-45452d63-2990-464e-a5f5-10a48114d0bc' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1713526721822</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Forgotpassword</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>60,666s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"abcd@gmail.com", "sacgusaguas", "Abc1234@ijklMno"</span><br>
+				<div class="stackTrace" id="45452d63-2990-464e-a5f5-10a48114d0bc" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1713526568623</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('6b0ad38d-67d9-498c-bd91-c2d81a6e16ac','block');changeSingleIcon('span-6b0ad38d-67d9-498c-bd91-c2d81a6e16ac');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>JDGroup.AndroidTest.LoginTest</div>
+			<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-6b0ad38d-67d9-498c-bd91-c2d81a6e16ac' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1713526568623</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Login</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>22,598s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"abcd", "1234"</span><br>
+				<div class="stackTrace" id="6b0ad38d-67d9-498c-bd91-c2d81a6e16ac" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1713526630436</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('cdb534f7-9146-4088-b799-42dbba1ba8ec','block');changeSingleIcon('span-cdb534f7-9146-4088-b799-42dbba1ba8ec');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>JDGroup.AndroidTest.LoginTest</div>
+			<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-cdb534f7-9146-4088-b799-42dbba1ba8ec' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1713526630436</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Login</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>56,903s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"test_agent@jdg.co.za", "TestingUser_2024"</span><br>
+				<div class="stackTrace" id="cdb534f7-9146-4088-b799-42dbba1ba8ec" style="display: block;">
+					</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

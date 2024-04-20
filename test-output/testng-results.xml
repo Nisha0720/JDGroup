@@ -2,68 +2,78 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-18T11:05:03 SAST" name="Suite" finished-at="2024-04-18T11:07:00 SAST" duration-ms="116980">
+  <suite started-at="2024-04-20T18:29:38 SAST" name="Default suite" finished-at="2024-04-20T18:31:35 SAST" duration-ms="117337">
     <groups>
     </groups>
-    <test started-at="2024-04-18T11:05:03 SAST" name="Test" finished-at="2024-04-18T11:07:00 SAST" duration-ms="116980">
-      <class name="JDGroup.AndroidTest.LoginTest">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:JDGroup.AndroidTest.LoginTest@ffaa6af]" started-at="2024-04-18T11:05:03 SAST" name="configureAppium" finished-at="2024-04-18T11:05:15 SAST" duration-ms="12061" status="PASS">
+    <test started-at="2024-04-20T18:29:38 SAST" name="Default test" finished-at="2024-04-20T18:31:35 SAST" duration-ms="117337">
+      <class name="JDGroup.AndroidTest.ForgotPasswordTest">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:JDGroup.AndroidTest.ForgotPasswordTest@27462a88]" started-at="2024-04-20T18:29:38 SAST" name="configureAppium" finished-at="2024-04-20T18:29:49 SAST" duration-ms="10903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method is-config="true" signature="configureDriver()[pri:0, instance:JDGroup.AndroidTest.LoginTest@ffaa6af]" started-at="2024-04-18T11:05:19 SAST" name="configureDriver" finished-at="2024-04-18T11:05:43 SAST" duration-ms="23825" status="PASS">
+        <test-method is-config="true" signature="configureDriver()[pri:0, instance:JDGroup.AndroidTest.ForgotPasswordTest@27462a88]" started-at="2024-04-20T18:29:51 SAST" name="configureDriver" finished-at="2024-04-20T18:30:09 SAST" duration-ms="18553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureDriver -->
-        <test-method signature="browserTest(java.lang.String,java.lang.String)[pri:0, instance:JDGroup.AndroidTest.LoginTest@ffaa6af]" started-at="2024-04-18T11:05:43 SAST" name="browserTest" data-provider="testdata" finished-at="2024-04-18T11:06:03 SAST" duration-ms="20719" status="PASS">
+        <test-method signature="Forgotpassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:JDGroup.AndroidTest.ForgotPasswordTest@27462a88]" started-at="2024-04-20T18:30:09 SAST" name="Forgotpassword" data-provider="testdata" finished-at="2024-04-20T18:30:45 SAST" duration-ms="35771" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[abcd]]>
+                <![CDATA[abcd@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[1234]]>
+                <![CDATA[sacgusaguas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abc1234@ijklMno]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:JDGroup.AndroidTest.LoginTest@ffaa6af]" started-at="2024-04-18T11:06:03 SAST" name="tearDown" finished-at="2024-04-18T11:06:06 SAST" duration-ms="2560" status="PASS">
+        </test-method> <!-- Forgotpassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:JDGroup.AndroidTest.ForgotPasswordTest@27462a88]" started-at="2024-04-20T18:30:45 SAST" name="tearDown" finished-at="2024-04-20T18:30:48 SAST" duration-ms="2339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="configureDriver()[pri:0, instance:JDGroup.AndroidTest.LoginTest@ffaa6af]" started-at="2024-04-18T11:06:06 SAST" name="configureDriver" finished-at="2024-04-18T11:06:30 SAST" duration-ms="23682" status="PASS">
+        <test-method is-config="true" signature="configureDriver()[pri:0, instance:JDGroup.AndroidTest.ForgotPasswordTest@27462a88]" started-at="2024-04-20T18:30:48 SAST" name="configureDriver" finished-at="2024-04-20T18:31:02 SAST" duration-ms="14595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureDriver -->
-        <test-method signature="browserTest(java.lang.String,java.lang.String)[pri:0, instance:JDGroup.AndroidTest.LoginTest@ffaa6af]" started-at="2024-04-18T11:06:30 SAST" name="browserTest" data-provider="testdata" finished-at="2024-04-18T11:06:57 SAST" duration-ms="27474" status="PASS">
+        <test-method signature="Forgotpassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:JDGroup.AndroidTest.ForgotPasswordTest@27462a88]" started-at="2024-04-20T18:31:02 SAST" name="Forgotpassword" data-provider="testdata" finished-at="2024-04-20T18:31:31 SAST" duration-ms="29277" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[test_agent@jdg.co.za]]>
+                <![CDATA[test@123]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[TestingUser_2024]]>
+                <![CDATA[sacgusaguas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abc1234@ijklMno]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:JDGroup.AndroidTest.LoginTest@ffaa6af]" started-at="2024-04-18T11:06:57 SAST" name="tearDown" finished-at="2024-04-18T11:07:00 SAST" duration-ms="2709" status="PASS">
+        </test-method> <!-- Forgotpassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:JDGroup.AndroidTest.ForgotPasswordTest@27462a88]" started-at="2024-04-20T18:31:31 SAST" name="tearDown" finished-at="2024-04-20T18:31:35 SAST" duration-ms="3774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownService()[pri:0, instance:JDGroup.AndroidTest.LoginTest@ffaa6af]" started-at="2024-04-18T11:07:00 SAST" name="tearDownService" finished-at="2024-04-18T11:07:00 SAST" duration-ms="98" status="PASS">
+        <test-method is-config="true" signature="tearDownService()[pri:0, instance:JDGroup.AndroidTest.ForgotPasswordTest@27462a88]" started-at="2024-04-20T18:31:35 SAST" name="tearDownService" finished-at="2024-04-20T18:31:35 SAST" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownService -->
-      </class> <!-- JDGroup.AndroidTest.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- JDGroup.AndroidTest.ForgotPasswordTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

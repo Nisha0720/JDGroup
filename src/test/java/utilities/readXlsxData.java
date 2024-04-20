@@ -18,8 +18,8 @@ public class readXlsxData {
 	@DataProvider(name="testdata")
 	public String[][] getData(Method m) throws EncryptedDocumentException, IOException
 	{
-		//String excelSheetName = m.getName();
-		String excelSheetName = "LoginTest";
+		String excelSheetName = m.getName();
+		//String excelSheetName = "LoginTest";
 		File f = new File(System.getProperty("user.dir")+"\\src\\test\\java\\testdata\\testdata.xlsx");
 		FileInputStream fis = new FileInputStream(f);
 		Workbook wb = WorkbookFactory.create(fis);
@@ -42,4 +42,5 @@ public class readXlsxData {
 		}			
 		return testData;
 	}
+
 }

@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JDGroup.AndroidTest.ForgotPasswordTest">
+      <class name="JDGroup.AndroidTest.TestFail">
         <methods>
           <include name="tearDown"/>
+          <include name="ValidateSiginInButtonInFirstPage"/>
           <include name="configureDriver"/>
           <include name="configureAppium"/>
-          <include name="browserTest"/>
           <include name="tearDownService"/>
         </methods>
-      </class> <!-- JDGroup.AndroidTest.ForgotPasswordTest -->
+      </class> <!-- JDGroup.AndroidTest.TestFail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
