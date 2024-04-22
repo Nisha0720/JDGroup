@@ -30,24 +30,25 @@ public class BaseTest {
 	public static FileReader fr1 ;
 	
 	//While testing a single class/test we will use @BeforeClass annotation. For running suite we will use @BeforeSuite
-	//@BeforeSuite
-	@BeforeClass
+	@BeforeSuite
+	//@BeforeClass
 	
 	//This method is reading the config file and locator file and we will startup appium server in this method
 	public void configureAppium() throws URISyntaxException, IOException
 	{
 		if(service == null) {
-			System.out.print("driver is null");
+			System.out.print("service is starting");
 			//Reading prop file and config file
 			fr = new FileReader(System.getProperty("user.dir")+"\\src\\test\\java\\configfiles\\config.properties");		
 			fr1 = new FileReader(System.getProperty("user.dir")+"\\src\\test\\java\\configfiles\\locators.properties");
 			prop.load(fr);
 			loc.load(fr1);
+		
+			//Setup appium service start
+			service = new AppiumServiceBuilder().withAppiumJS( new File(prop.getProperty("appiumlocation")))
+					.withIPAddress("127.0.0.1").usingPort(4723).build();
+			//service.start();	
 		}
-		//Setup appium service start
-	     service = new AppiumServiceBuilder().withAppiumJS( new File(prop.getProperty("appiumlocation")))
-		.withIPAddress("127.0.0.1").usingPort(4723).build();
-	     service.start();	     
 	}
 
 	//This method is to setup the web driver, chrome driver has been downloaded and chrome browser setup has been done here, will do firefox, edge and other browser later
@@ -80,10 +81,10 @@ public class BaseTest {
 	}
 	
 	//Tear down method to to stop appium server, will use @AfterClass notation to test class, while running suite we will use @AfterSuite notation
-	@AfterClass
-	//@AfterSuite
+	//@AfterClass
+	@AfterSuite
 	public void tearDownService() 
 	{
-		service.stop();
+		//service.stop();
 	}
 }

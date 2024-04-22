@@ -7,9 +7,8 @@
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>
+	  <class name="JDGroup.AndroidTest.ForgotPasswordTest"/>
       <class name="JDGroup.AndroidTest.LoginTest"/>
-      <class name="JDGroup.AndroidTest.ForgotPasswordTest"/>
-     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

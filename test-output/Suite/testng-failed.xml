@@ -7,24 +7,24 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="JDGroup.AndroidTest.ForgotPasswordTest">
-        <methods>
-          <include name="Forgotpassword"/>
-          <include name="tearDown"/>
-          <include name="configureAppium"/>
-          <include name="configureDriver"/>
-          <include name="tearDownService"/>
-        </methods>
-      </class> <!-- JDGroup.AndroidTest.ForgotPasswordTest -->
       <class name="JDGroup.AndroidTest.LoginTest">
         <methods>
-          <include name="Login"/>
+          <include name="Login" invocation-numbers="1 1"/>
           <include name="tearDown"/>
           <include name="configureAppium"/>
           <include name="configureDriver"/>
           <include name="tearDownService"/>
         </methods>
       </class> <!-- JDGroup.AndroidTest.LoginTest -->
+      <class name="JDGroup.AndroidTest.ForgotPasswordTest">
+        <methods>
+          <include name="Forgotpassword" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="configureDriver"/>
+          <include name="tearDownService"/>
+        </methods>
+      </class> <!-- JDGroup.AndroidTest.ForgotPasswordTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

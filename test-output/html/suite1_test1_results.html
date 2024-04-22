@@ -43,8 +43,8 @@
 	    		<span class="tooltiptextCustom">Copy Class name</span>
 			</div>
 	    </th> 
-	    <th id="testClassId">JDGroup.AndroidTest.LoginTest<br>JDGroup.AndroidTest.ForgotPasswordTest<br></th>
-	    <th id="testClassNameId" hidden="true">LoginTest<br>ForgotPasswordTest<br></th>
+	    <th id="testClassId">JDGroup.AndroidTest.ForgotPasswordTest<br>JDGroup.AndroidTest.LoginTest<br></th>
+	    <th id="testClassNameId" hidden="true">ForgotPasswordTest<br>LoginTest<br></th>
 	  </tr>
 	  <tr>
 	    <th>Suite Name : </th>
@@ -74,7 +74,7 @@
 	  	  <tr>
 	    <th>Total Time : </th>
 	    <th></th>
-	    <th>00:06:17</th> 
+	    <th>00:11:06</th> 
 	  </tr>
 	  <tr>
 	    <th>Total Steps : </th>
@@ -84,7 +84,7 @@
 	  <tr>
 	    <th>Status : </th>
 	    <th></th>
-	    <th><font color="green">PASS</font></th> 
+	    <th><font color="red">FAIL</font></th> 
 	  </tr>
 	</table>
 </div>
@@ -109,85 +109,289 @@
 				
 				
 																
-				
-				
-												<tr>
-			<td class="time">1713526817171</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('2bbea9cc-4239-45ca-b0bd-aae5a11e886b','block');changeSingleIcon('span-2bbea9cc-4239-45ca-b0bd-aae5a11e886b');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>JDGroup.AndroidTest.ForgotPasswordTest</div>
-			<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-2bbea9cc-4239-45ca-b0bd-aae5a11e886b' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1713526817171</td>
+											<tr>
+	<td class="time">1713784715793</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('f6f28017-2641-4a48-bb1a-1c002310619c','block');changeSingleIcon('span-f6f28017-2641-4a48-bb1a-1c002310619c');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>JDGroup.AndroidTest.LoginTest</div>
+	<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-f6f28017-2641-4a48-bb1a-1c002310619c' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1713784715793</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Login</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>71,553s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"test_agent@jdg.co.za", "TestingUser_2024"</span><br>
+				<div class="noCollapse" id="f6f28017-2641-4a48-bb1a-1c002310619c" style="display: block;">
+						<a href="javascript:toggleElement('exception-f6f28017-2641-4a48-bb1a-1c002310619c','block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(.//*[normalize-space(text()) and normalize-space(.)=&apos;Buy Now!&apos;])[1]/following::p[2]&quot;}<br/>
+&nbsp; (Session info: chrome=124.0.6355.0)<br/>
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;<br/>
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;<br/>
+Driver info: io.appium.java_client.android.AndroidDriver<br/>
+Command: [9fadf88f-8442-4379-80eb-c25bd9ef7b76, findElement {value=(.//*[normalize-space(text()) and normalize-space(.)=&apos;Buy Now!&apos;])[1]/following::p[2], using=xpath}]<br/>
+Capabilities {appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\nisha\Downloads\ch..., appium:databaseEnabled: false, appium:desired: {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: Chrome, chromedriverExecutable: C:\Users\nisha\Downloads\ch..., deviceName: NishaPhone3, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 14, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, browserName: Chrome, platformName: ANDROID}<br/>
+Session ID: 9fadf88f-8442-4379-80eb-c25bd9ef7b76</b></a><br/>
+		<div class="stackTrace" id="exception-f6f28017-2641-4a48-bb1a-1c002310619c">
+					java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>
+					java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)<br/>
+					java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br/>
+					java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br/>
+					java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br/>
+					org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)<br/>
+					org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)<br/>
+					org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)<br/>
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)<br/>
+					io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)<br/>
+					org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br/>
+					org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)<br/>
+					JDGroup.AndroidTest.LoginTest.Login(LoginTest.java:57)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br/>
+					java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:568)<br/>
+					org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br/>
+					org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br/>
+					org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)<br/>
+					org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)<br/>
+					org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br/>
+					org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br/>
+					org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br/>
+					org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:794)<br/>
+					org.testng.TestRunner.run(TestRunner.java:596)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:276)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1063)<br/>
+					org.testng.TestNG.run(TestNG.java:1031)<br/>
+					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br/>
+					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br/>
+					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						
+											<tr>
+	<td class="time">1713784304701</td>
+	<td class="header skipped" colspan="4" onClick="toggleElement('5080ca2d-ab83-42b2-9f45-4804575c51ee','block');changeSingleIcon('span-5080ca2d-ab83-42b2-9f45-4804575c51ee');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>JDGroup.AndroidTest.ForgotPasswordTest</div>
+	<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-5080ca2d-ab83-42b2-9f45-4804575c51ee' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1713784304701</td>
 	<td class="methodTest">
 		<span class="description"><b>Method: </b>Forgotpassword</span><br>
 			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>70,494s</span><br>
+							<span class="duration"><b>Duration: </b>23,634s</span><br>
 	</td>
 	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"test@123", "sacgusaguas", "Abc1234@ijklMno"</span><br>
-				<div class="stackTrace" id="2bbea9cc-4239-45ca-b0bd-aae5a11e886b" style="display: block;">
+		 								<i>Method arguments: </i><span class="arguments">"test@123", "sacgusaguas", "Abc1234@ijklMno"</span><br>
+				<div class="stackTrace" id="5080ca2d-ab83-42b2-9f45-4804575c51ee" style="display: block;">
+						<a href="javascript:toggleElement('exception-5080ca2d-ab83-42b2-9f45-4804575c51ee','block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000<br/>
+&nbsp; (Session info: chrome=124.0.6355.0)<br/>
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;<br/>
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;<br/>
+Driver info: io.appium.java_client.android.AndroidDriver<br/>
+Command: [4467c6c0-de0a-4375-be1d-8a71a4cbdbd6, findElement {value=//a[@Class=&apos;redirect-customizable&apos;], using=xpath}]<br/>
+Capabilities {appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\nisha\Downloads\ch..., appium:databaseEnabled: false, appium:desired: {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: Chrome, chromedriverExecutable: C:\Users\nisha\Downloads\ch..., deviceName: NishaPhone3, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 14, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, browserName: Chrome, platformName: ANDROID}<br/>
+Session ID: 4467c6c0-de0a-4375-be1d-8a71a4cbdbd6</b></a><br/>
+		<div class="stackTrace" id="exception-5080ca2d-ab83-42b2-9f45-4804575c51ee">
+					java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>
+					java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)<br/>
+					java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br/>
+					java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br/>
+					java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br/>
+					org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)<br/>
+					org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)<br/>
+					org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)<br/>
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)<br/>
+					io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)<br/>
+					org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br/>
+					org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)<br/>
+					JDGroup.AndroidTest.ForgotPasswordTest.Forgotpassword(ForgotPasswordTest.java:23)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br/>
+					java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:568)<br/>
+					org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br/>
+					org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br/>
+					org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br/>
+					org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br/>
+					org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br/>
+					org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br/>
+					org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br/>
+					org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:794)<br/>
+					org.testng.TestRunner.run(TestRunner.java:596)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:276)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1063)<br/>
+					org.testng.TestNG.run(TestNG.java:1031)<br/>
+					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br/>
+					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br/>
+					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+									<tr>
+	<td class="time">1713784516420</td>
+	<td class="header skipped" colspan="4" onClick="toggleElement('3acf9a66-c288-42ad-a982-48a217ccb35c','block');changeSingleIcon('span-3acf9a66-c288-42ad-a982-48a217ccb35c');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>JDGroup.AndroidTest.LoginTest</div>
+	<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-3acf9a66-c288-42ad-a982-48a217ccb35c' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1713784516420</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Login</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>91,290s</span><br>
+	</td>
+	<td class="result">
+		 								<i>Method arguments: </i><span class="arguments">"test_agent@jdg.co.za", "TestingUser_2024"</span><br>
+				<div class="stackTrace" id="3acf9a66-c288-42ad-a982-48a217ccb35c" style="display: block;">
+						<a href="javascript:toggleElement('exception-3acf9a66-c288-42ad-a982-48a217ccb35c','block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(.//*[normalize-space(text()) and normalize-space(.)=&apos;Buy Now!&apos;])[1]/following::p[2]&quot;}<br/>
+&nbsp; (Session info: chrome=124.0.6355.0)<br/>
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;<br/>
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;<br/>
+Driver info: io.appium.java_client.android.AndroidDriver<br/>
+Command: [12dd0f32-899a-4193-96c0-2fdff2709ab1, findElement {value=(.//*[normalize-space(text()) and normalize-space(.)=&apos;Buy Now!&apos;])[1]/following::p[2], using=xpath}]<br/>
+Capabilities {appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\nisha\Downloads\ch..., appium:databaseEnabled: false, appium:desired: {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: Chrome, chromedriverExecutable: C:\Users\nisha\Downloads\ch..., deviceName: NishaPhone3, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 14, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, browserName: Chrome, platformName: ANDROID}<br/>
+Session ID: 12dd0f32-899a-4193-96c0-2fdff2709ab1</b></a><br/>
+		<div class="stackTrace" id="exception-3acf9a66-c288-42ad-a982-48a217ccb35c">
+					java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>
+					java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)<br/>
+					java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br/>
+					java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br/>
+					java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br/>
+					org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)<br/>
+					org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)<br/>
+					org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)<br/>
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)<br/>
+					io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)<br/>
+					org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br/>
+					org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br/>
+					org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)<br/>
+					JDGroup.AndroidTest.LoginTest.Login(LoginTest.java:57)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br/>
+					java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:568)<br/>
+					org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br/>
+					org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br/>
+					org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br/>
+					org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br/>
+					org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br/>
+					org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br/>
+					org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br/>
+					org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:794)<br/>
+					org.testng.TestRunner.run(TestRunner.java:596)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:276)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1063)<br/>
+					org.testng.TestNG.run(TestNG.java:1031)<br/>
+					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br/>
+					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br/>
+					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						
+												<tr>
+			<td class="time">1713784218968</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('c3797f38-47fb-4ee4-8eb9-513001cd54e7','block');changeSingleIcon('span-c3797f38-47fb-4ee4-8eb9-513001cd54e7');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>JDGroup.AndroidTest.ForgotPasswordTest</div>
+			<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-c3797f38-47fb-4ee4-8eb9-513001cd54e7' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1713784218968</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Forgotpassword</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>45,744s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"abcd@gmail.com", "sacgusaguas", "Abc1234@ijklMno"</span><br>
+				<div class="stackTrace" id="c3797f38-47fb-4ee4-8eb9-513001cd54e7" style="display: block;">
 					</td>
 	</div>
 </tr>
 						<tr>
-			<td class="time">1713526721822</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('45452d63-2990-464e-a5f5-10a48114d0bc','block');changeSingleIcon('span-45452d63-2990-464e-a5f5-10a48114d0bc');" title="Click to expand/collapse" style="cursor: pointer;">
+			<td class="time">1713784358563</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('66ee4833-7401-4c9c-81fd-daa9bda543b4','block');changeSingleIcon('span-66ee4833-7401-4c9c-81fd-daa9bda543b4');" title="Click to expand/collapse" style="cursor: pointer;">
 			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>JDGroup.AndroidTest.ForgotPasswordTest</div>
-			<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-45452d63-2990-464e-a5f5-10a48114d0bc' class="glyphicon glyphicon-menu-down"></span></div>
+			<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-66ee4833-7401-4c9c-81fd-daa9bda543b4' class="glyphicon glyphicon-menu-down"></span></div>
 			</td>
 			</tr>
 			<tr>
-	<td class="time">1713526721822</td>
+	<td class="time">1713784358563</td>
 	<td class="methodTest">
 		<span class="description"><b>Method: </b>Forgotpassword</span><br>
 			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>60,666s</span><br>
+							<span class="duration"><b>Duration: </b>52,620s</span><br>
 	</td>
 	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"abcd@gmail.com", "sacgusaguas", "Abc1234@ijklMno"</span><br>
-				<div class="stackTrace" id="45452d63-2990-464e-a5f5-10a48114d0bc" style="display: block;">
+					<i>Method arguments: </i><span class="arguments">"test@123", "sacgusaguas", "Abc1234@ijklMno"</span><br>
+				<div class="stackTrace" id="66ee4833-7401-4c9c-81fd-daa9bda543b4" style="display: block;">
 					</td>
 	</div>
 </tr>
 										<tr>
-			<td class="time">1713526568623</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('6b0ad38d-67d9-498c-bd91-c2d81a6e16ac','block');changeSingleIcon('span-6b0ad38d-67d9-498c-bd91-c2d81a6e16ac');" title="Click to expand/collapse" style="cursor: pointer;">
+			<td class="time">1713784443203</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('87fea7e1-d9f7-4fd8-ba41-8d9862af4823','block');changeSingleIcon('span-87fea7e1-d9f7-4fd8-ba41-8d9862af4823');" title="Click to expand/collapse" style="cursor: pointer;">
 			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>JDGroup.AndroidTest.LoginTest</div>
-			<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-6b0ad38d-67d9-498c-bd91-c2d81a6e16ac' class="glyphicon glyphicon-menu-down"></span></div>
+			<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-87fea7e1-d9f7-4fd8-ba41-8d9862af4823' class="glyphicon glyphicon-menu-down"></span></div>
 			</td>
 			</tr>
 			<tr>
-	<td class="time">1713526568623</td>
+	<td class="time">1713784443203</td>
 	<td class="methodTest">
 		<span class="description"><b>Method: </b>Login</span><br>
 			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>22,598s</span><br>
+							<span class="duration"><b>Duration: </b>17,878s</span><br>
 	</td>
 	<td class="result">
 					<i>Method arguments: </i><span class="arguments">"abcd", "1234"</span><br>
-				<div class="stackTrace" id="6b0ad38d-67d9-498c-bd91-c2d81a6e16ac" style="display: block;">
-					</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1713526630436</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('cdb534f7-9146-4088-b799-42dbba1ba8ec','block');changeSingleIcon('span-cdb534f7-9146-4088-b799-42dbba1ba8ec');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>JDGroup.AndroidTest.LoginTest</div>
-			<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-cdb534f7-9146-4088-b799-42dbba1ba8ec' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1713526630436</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Login</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>56,903s</span><br>
-	</td>
-	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"test_agent@jdg.co.za", "TestingUser_2024"</span><br>
-				<div class="stackTrace" id="cdb534f7-9146-4088-b799-42dbba1ba8ec" style="display: block;">
+				<div class="stackTrace" id="87fea7e1-d9f7-4fd8-ba41-8d9862af4823" style="display: block;">
 					</td>
 	</div>
 </tr>
